@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Findflowers - Flower Identification App</title>
+  <style>
+    /* Temel stil */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /* Gradient ayarları */
+      background: linear-gradient(to bottom right, #95BDFE, #7ABA75);
+    }
+    header {
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav {
+      background-color: #2d963f;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    section {
+      padding: 2rem;
+    }
+    footer {
+      background-color: #32a852;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    .app-logo {
+      max-width: 150px;
+      margin: 0 auto;
+      display: block;
+    }
+    .flower-image {
+      max-width: 200px; /* Fotoğrafın maksimum genişliğini belirleyin */
+      height: auto; /* Yüksekliği otomatik olarak orantılı olarak ayarlanır */
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    /* Yeni stiller */
+    body {
+      position: relative; /* Body'yi relative position yapın */
+      min-height: 100vh; /* Sayfanın tamamını kaplamak için min-height'i 100vh yapın */
+    }
+
+    section {
+      margin-bottom: 4rem; /* Footer ile arasında boşluk bırakın */
+    }
+
+    footer {
+      position: absolute; /* Footer'ı absolute position yapın */
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="app-logo" src="logo.png" alt="Findflowers Logo">
+    <h1>Findflowers</h1>
+    <p>Flower Identification App</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="mailto:muratkucuk099@gmail.com">Contact</a>
+  </nav>
+  <section>
+    <h2>Welcome to Findflowers!</h2>
+    <p>Findflowers is a mobile app that helps you identify flowers through photos. Simply take a picture of a flower, and our app will provide you with information about the flower's species, common names, and other interesting facts.</p>
+    <img class="flower-image" src="screenshot2.jpeg" alt="Flower 1">
+    <p>Features:</p>
+    <ul>
+      <li>Instant Flower Identification</li>
+      <li>Detailed Flower Information</li>
+      <li>Easy-to-Use Interface</li>
+      <li>Available for iOS</li>
+    </ul>
+    <p>Download Findflowers today and explore the fascinating world of flowers!</p>
+  </section>
+  <footer>
+    &copy; 2023 Findflowers. All rights reserved.
+  </footer>
+</body>
+</html>
