@@ -1,11 +1,13 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "U675FN2PY2.murat.com.InsightGauge",
-        "paths": ["/battle/*"]
-      }
-    ]
-  }
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "U675FN2PY2.murat.com.InsightGauge",
+                "paths": [
+                    "/battle/*"
+                ]
+            }
+        ]
+    }
 }
